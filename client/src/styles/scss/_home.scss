@@ -1,0 +1,16 @@
+@import './golfInfo';
+
+.home-container {
+	h1 {
+		color: $primaryColor;
+		text-align: center;
+		font-size: 64px;
+		padding: 20px 0;
+	}
+
+	h4 {
+		font-size: 32px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+}

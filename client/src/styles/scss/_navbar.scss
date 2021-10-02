@@ -1,1 +1,33 @@
+.navbar {
+	position: sticky;
+	padding: 20px;
+}
 
+.nav-logo {
+	position: absolute;
+	left: 0;
+	margin-left: 30px;
+	padding: 20px 0;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	margin-left: 100px;
+
+	a {
+		height: 100%;
+	}
+
+	li {
+		list-style: none;
+		padding: 8px 30px 10px;
+		display: flex;
+		align-items: center;
+		height: 100%;
+
+		&:hover {
+			background-color: $secondaryColor;
+		}
+	}
+}

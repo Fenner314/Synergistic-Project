@@ -1,9 +1,27 @@
 // Colors
 $primaryColor: #6660a9;
+$primaryColorOpaque: #6660a9a6;
 $secondaryColor: #18bdce;
 $primaryAccent: #c63893;
+$primaryAccentDark: #a72878;
 $secondaryAccent: #43b54c;
+$secondaryAccentOpaque: #43b54cd6;
+$secondaryAccentDark: #1d4e21d6;
+// For Material-UI
+:root {
+	--primary-color: #6660a9;
+	--secondary-color: #18bdce;
+	--primary-accent: #c63893;
+	--primary-accent-dark: #a72878;
+	--secondary-accent: #43b54c;
+}
 
 // Fonts
 $primaryFont: 'PT Sans', sans-serif;
 $secondaryFont: 'Amatic SC', cursive;
+
+// Breakpoints
+$mobile: 411px;
+$tablet: 768px;
+$desktop: 1263px;
+$largeScreen: 1264px;
