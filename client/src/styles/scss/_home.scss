@@ -5,7 +5,11 @@
 		color: $primaryColor;
 		text-align: center;
 		font-size: 64px;
-		padding: 20px 0;
+		padding: 20px;
+
+		@include responsiveSmall($tablet) {
+			font-size: 48px;
+		}
 	}
 
 	h4 {

@@ -69,18 +69,18 @@ export default function RegisterForm() {
 				<Form className='form-container'>
 					<div className='input-container'>
 						<Field id='firstname' classname='input' name='firstname' />
-						<span className='floating-label'>First name</span>
+						<span className='floating-label'>First name*</span>
 						<ErrorMessage name='firstname' component='span' className='error' />
 					</div>
 					<div className='input-container'>
 						<Field id='lastname' classname='input' name='lastname' />
-						<span className='floating-label'>Last name</span>
+						<span className='floating-label'>Last name*</span>
 						<ErrorMessage name='lastname' component='span' className='error' />
 					</div>
 
 					<div className='input-container'>
 						<Field id='email' classname='input' name='email' type='email' />
-						<span className='floating-label'>Email</span>
+						<span className='floating-label'>Email*</span>
 						<ErrorMessage name='email' component='span' className='error' />
 					</div>
 
@@ -104,7 +104,6 @@ export default function RegisterForm() {
 						variant='contained'
 						className={classes.registerButton}
 						type='submit'
-						// disabled={true}
 					>
 						Register
 					</Button>

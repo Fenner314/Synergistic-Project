@@ -6,6 +6,7 @@ import Agenda from './pages/Agenda'
 import Register from './pages/Register'
 import { ThemeProvider, createTheme } from '@mui/material'
 import Attendees from './pages/Attendees'
+import NotFound from './pages/NotFound'
 
 const theme = createTheme()
 
@@ -19,6 +20,7 @@ function App() {
 					<Route exact path='/agenda' component={Agenda} />
 					<Route exact path='/register' component={Register} />
 					<Route exact path='/attendees' component={Attendees} />
+					<Route component={NotFound} />
 				</Switch>
 			</ThemeProvider>
 		</div>

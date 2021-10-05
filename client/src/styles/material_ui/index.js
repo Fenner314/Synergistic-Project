@@ -1,6 +1,6 @@
 import { makeStyles } from '@mui/styles'
 
-export const useStyles = makeStyles((theme, here) => ({
+export const useStyles = makeStyles((theme) => ({
 	toolbar: {
 		height: '100px',
 		backgroundColor: 'white !important',
@@ -8,7 +8,18 @@ export const useStyles = makeStyles((theme, here) => ({
 		display: 'flex',
 		flexDirection: 'row !important',
 		justifyContent: 'center',
-		// alignItems: 'center',
+
+		'@media (min-width: 678px) and (max-width: 830px)': {
+			justifyContent: 'flex-end !important',
+		},
+	},
+	menu: {
+		position: 'absolute',
+		left: '20px',
+		top: '20px',
+		color: 'black',
+		fontSize: '3rem !important',
+		cursor: 'pointer',
 	},
 	toRegister: {
 		marginTop: '20px !important',

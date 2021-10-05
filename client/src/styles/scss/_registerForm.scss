@@ -7,9 +7,12 @@
 		color: $primaryColor;
 		font-size: 48px;
 		margin-top: 40px;
+		padding: 0 20px;
+		text-align: center;
 
 		span {
 			font-family: $secondaryFont;
+			display: inline-block;
 		}
 	}
 }

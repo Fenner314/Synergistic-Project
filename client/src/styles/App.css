@@ -20,6 +20,51 @@
   padding: 20px 0;
 }
 
+.mobile-links {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 100px;
+  background: white;
+  height: calc(100vh - 100px);
+  width: 30vw;
+  min-width: 240px;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+.mobile-links li {
+  list-style: none;
+  padding: 8px 30px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin: 20px 0;
+}
+
+.mobile-links li:hover {
+  background-color: #18bdce;
+}
+
 .links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,7 +104,7 @@
 }
 
 .golf-section img {
-  min-width: 1000px;
+  min-width: 1200px;
 }
 
 .golf-info {
@@ -151,7 +196,13 @@
   color: #6660a9;
   text-align: center;
   font-size: 64px;
-  padding: 20px 0;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-container h1 {
+    font-size: 48px;
+  }
 }
 
 .home-container h4 {
@@ -178,6 +229,7 @@
   color: #6660a9;
   font-size: 48px;
   margin-bottom: 40px;
+  padding: 0 20px;
 }
 
 .agenda {
@@ -242,10 +294,13 @@
   color: #6660a9;
   font-size: 48px;
   margin-top: 40px;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .form-page h1 span {
   font-family: "Amatic SC", cursive;
+  display: inline-block;
 }
 
 .form-container {
@@ -388,6 +443,7 @@
 .attendees-page h1 {
   color: #6660a9;
   margin-top: 40px;
+  padding: 0 20px;
   font-size: 48px;
   text-align: center;
 }
@@ -457,6 +513,26 @@ tr:nth-child(even) {
   td:nth-of-type(5):before {
     content: 'Golf Handicap';
   }
+}
+
+.not-found-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.not-found-page h1 {
+  color: #6660a9;
+  max-width: 50ch;
+  text-align: center;
+  margin: 40px 0;
 }
 
 * {
