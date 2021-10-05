@@ -25,16 +25,7 @@ export default function GolfInfo() {
 					<ul>
 						<li>Starts at 11:00am</li>
 						<li>Hosted lunch, raffles, and additional games</li>
-						<li>
-							<a
-								href='https://golf.com/lifestyle/how-to-play-bingo-bango-bongo/'
-								target='_blank'
-								rel='noreferrer'
-							>
-								Bingo, Bango, Bongo
-							</a>{' '}
-							contest
-						</li>
+						<li>Bingo, Bango, Bongo contest</li>
 						<li>Take home a goodie bag!</li>
 						<li>Great opportunity to help our kids</li>
 					</ul>
@@ -42,7 +33,7 @@ export default function GolfInfo() {
 				<div className='golf-register'>
 					<p>Join us for an afternoon of fun and helping kids!</p>
 					<Link to='/register'>
-						<Button variant='contained' className={classes.registerButton}>
+						<Button variant='contained' className={classes.toRegister}>
 							Register
 						</Button>
 					</Link>

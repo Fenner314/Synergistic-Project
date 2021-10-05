@@ -10,12 +10,27 @@ export const useStyles = makeStyles((theme, here) => ({
 		justifyContent: 'center',
 		// alignItems: 'center',
 	},
-	registerButton: {
+	toRegister: {
 		marginTop: '20px !important',
 		backgroundColor: 'var(--primary-accent) !important',
 
 		'&:hover': {
 			backgroundColor: 'var(--primary-accent-dark) !important',
 		},
+	},
+	registerButton: {
+		backgroundColor: 'var(--secondary-accent) !important',
+
+		'&:hover': {
+			backgroundColor: 'var(--secondary-accent-dark) !important',
+		},
+	},
+	extendIcon: {
+		position: 'absolute !important',
+		right: '5px',
+		cursor: 'pointer',
+	},
+	check: {
+		marginRight: '10px',
 	},
 }))

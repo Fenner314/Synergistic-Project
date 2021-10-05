@@ -1,0 +1,47 @@
+.agenda-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+
+	h1 {
+		color: $primaryColor;
+		font-size: 48px;
+		margin-bottom: 40px;
+	}
+}
+
+.agenda {
+	padding: 30px;
+	border-radius: 10px;
+	background-color: $offWhite;
+	margin-bottom: 40px;
+
+	@include responsiveSmall($mobile) {
+		background-color: transparent;
+	}
+
+	h1 {
+		margin-bottom: 20px;
+	}
+
+	.slot {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		border: 1px solid black;
+		background-color: white;
+		position: relative;
+		padding-right: 40px;
+		overflow-y: hidden;
+		transition: max-height 0.2s linear;
+
+		@include responsiveSmall($mobile) {
+			font-size: 14px;
+		}
+	}
+
+	.extra {
+		margin-top: 10px;
+	}
+}

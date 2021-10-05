@@ -1,0 +1,13 @@
+GET http://localhost:5000/registered
+
+###
+POST http://localhost:5000/registered HTTP/1.1
+content-type: application/json
+
+{
+    "firstname": "Jacob",
+    "lastname": "Fenner",
+    "email": "jacobgfenner@yahoo.com",
+    "phone": "444-444-4444",
+    "handicap": 32
+}

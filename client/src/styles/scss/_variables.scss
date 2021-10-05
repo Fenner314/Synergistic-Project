@@ -7,6 +7,8 @@ $primaryAccentDark: #a72878;
 $secondaryAccent: #43b54c;
 $secondaryAccentOpaque: #43b54cd6;
 $secondaryAccentDark: #1d4e21d6;
+$offWhite: #f3f3f3;
+$lightGray: rgb(199, 199, 199);
 // For Material-UI
 :root {
 	--primary-color: #6660a9;
@@ -14,6 +16,7 @@ $secondaryAccentDark: #1d4e21d6;
 	--primary-accent: #c63893;
 	--primary-accent-dark: #a72878;
 	--secondary-accent: #43b54c;
+	--secondary-accent-dark: #33993c;
 }
 
 // Fonts
